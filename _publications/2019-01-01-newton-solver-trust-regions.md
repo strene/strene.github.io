@@ -7,6 +7,7 @@ excerpt: 'This paper presents a robust nonlinear Newton solver with adaptive int
 date: 2019-01-01
 venue: 'SPE Journal'
 paperurl: ''
+bibtexurl: '/files/bibtex/2019-newton-solver-trust-regions.bib'
 citation: 'Ø. Klemetsdal, O. Møyner, K.-A. Lie. (2019). &quot;Robust nonlinear Newton solver with adaptive interface-localized trust regions.&quot; <i>SPE Journal</i>. 24, 1576–1594. DOI: 10.2118/195682-PA.'
 ---
 

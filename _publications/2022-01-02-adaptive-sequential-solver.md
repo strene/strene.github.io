@@ -7,6 +7,7 @@ excerpt: 'This paper presents an adaptive sequential fully implicit domain-decom
 date: 2022-01-02
 venue: 'SPE Journal'
 paperurl: ''
+bibtexurl: '/files/bibtex/2022-adaptive-sequential-solver.bib'
 citation: 'Ø. Klemetsdal, A. Moncorgé, H. M. Nilsen, O. Møyner, K.-A. Lie. (2022). &quot;An adaptive sequential fully implicit domain-decomposition solver.&quot; <i>SPE Journal</i>. 27(01), 566–578. DOI: 10.2118/203991-PA.'
 ---
 

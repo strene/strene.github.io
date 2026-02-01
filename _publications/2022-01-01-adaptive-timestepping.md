@@ -7,6 +7,7 @@ excerpt: 'This paper presents adaptive timestepping and error control methods fo
 date: 2022-01-01
 venue: 'SPE Journal'
 paperurl: ''
+bibtexurl: '/files/bibtex/2022-adaptive-timestepping.bib'
 citation: 'E. Ahmed, Ø. Klemetsdal, X. Raynaud, O. Møyner, H. M. Nilsen. (2022). &quot;Adaptive timestepping, linearization, and a posteriori error control for multiphase flow of immiscible fluids in porous media with wells.&quot; <i>SPE Journal</i>. DOI: 10.2118/203974-PA.'
 ---
 

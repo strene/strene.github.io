@@ -7,6 +7,7 @@ excerpt: 'This paper presents nonlinear domain-decomposition preconditioning met
 date: 2023-01-01
 venue: 'Computational Geosciences'
 paperurl: 'https://rdcu.be/diqvn'
+bibtexurl: '/files/bibtex/2023-nonlinear-domain-decomposition.bib'
 citation: 'O. Møyner, A.F. Rasmussen, Ø. Klemetsdal, H. M. Nilsen, A. Moncorgé, K.-A. Lie. (2023). &quot;Nonlinear domain-decomposition preconditioning for robust and efficient field-scale simulation of subsurface flow.&quot; <i>Computational Geosciences</i>. DOI: 10.1007/s10596-023-10215-4.'
 ---
 

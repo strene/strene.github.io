@@ -7,6 +7,7 @@ excerpt: 'This paper evaluates thermal losses and storage capacity in high-tempe
 date: 2020-01-02
 venue: 'Geothermics'
 paperurl: ''
+bibtexurl: '/files/bibtex/2020-ht-ates-geneva.bib'
 citation: 'M. Collignon, Ø. Klemetsdal, O. Møyner, M. Alcanié, A. P. Rinaldi, H. M. Nilsen, M. Lupi. (2020). &quot;Evaluating thermal losses and storage capacity in high-temperature aquifer thermal energy storage (HT-ATES) systems with well operating limits: insights from a study-case in the Greater Geneva Basin, Switzerland.&quot; <i>Geothermics</i>. 85, 101773. DOI: 10.1016/j.geothermics.2019.101773.'
 ---
 

@@ -7,6 +7,7 @@ excerpt: 'This paper presents adaptive relaxation techniques and nonlinear domai
 date: 2025-01-01
 venue: 'SPE Journal'
 paperurl: ''
+bibtexurl: '/files/bibtex/2025-nonlinear-convergence-spe.bib'
 citation: 'K.-A. Lie, O. Møyner, Ø. Klemetsdal. (2025). &quot;Accelerating Nonlinear Convergence in Reservoir Simulation by Adaptive Relaxation and Nonlinear Domain-Decomposition Preconditioning.&quot; <i>SPE Journal</i>. DOI: 10.2118/212199-PA.'
 ---
 

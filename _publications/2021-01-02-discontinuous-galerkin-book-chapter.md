@@ -7,6 +7,7 @@ excerpt: 'This book chapter covers implicit discontinuous Galerkin methods for s
 date: 2021-01-02
 venue: 'Advanced Modeling with the MATLAB Reservoir Simulation Toolbox'
 paperurl: ''
+bibtexurl: '/files/bibtex/2021-discontinuous-galerkin-book-chapter.bib'
 citation: 'Ø. Klemetsdal, K.-A. Lie. (2021). &quot;Implicit discontinuous Galerkin methods for transport equations in porous media.&quot; In: K.-A. Lie, O. Møyner (eds) <i>Advanced Modeling with the MATLAB Reservoir Simulation Toolbox</i>. Cambridge University Press. DOI: 10.1017/9781009019781.007.'
 ---
 

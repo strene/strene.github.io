@@ -7,6 +7,7 @@ excerpt: 'This paper presents proxy models for enabling rapid simulation of unde
 date: 2024-11-04
 venue: 'Fifth EAGE Global Energy Transition Conference & Exhibition (GET 2024)'
 paperurl: ''
+bibtexurl: '/files/bibtex/2024-proxy-models-utes.bib'
 citation: 'Ø. Klemetsdal, O. Andersen. (2024). &quot;Proxy models for rapid simulation of underground thermal energy storage.&quot; <i>Fifth EAGE Global Energy Transition Conference & Exhibition (GET 2024)</i>. DOI: 10.3997/2214-4609.202421075.'
 ---
 

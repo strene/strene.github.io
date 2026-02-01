@@ -7,6 +7,7 @@ excerpt: 'This paper presents acceleration techniques for multiscale simulation 
 date: 2020-01-04
 venue: 'Computational Geosciences'
 paperurl: 'https://rdcu.be/c7AoQ'
+bibtexurl: '/files/bibtex/2020-multiscale-simulation.bib'
 citation: 'Ø. Klemetsdal, O. Møyner, K.-A. Lie. (2020). &quot;Accelerating multiscale simulation of complex geomodels by use of dynamically adapted basis functions.&quot; <i>Computational Geosciences</i>. 24, 459–476. DOI: 10.1007/s10596-019-9827-z.'
 ---
 

@@ -7,6 +7,7 @@ excerpt: 'This paper presents efficient reordered nonlinear Gauss-Seidel solvers
 date: 2020-01-03
 venue: 'Computational Geosciences'
 paperurl: 'https://rdcu.be/c7Aoo'
+bibtexurl: '/files/bibtex/2020-gauss-seidel-solvers.bib'
 citation: 'Ø. Klemetsdal, A. F. Rasmussen, O. Møyner, K.-A. Lie. (2020). &quot;Efficient reordered nonlinear Gauss–Seidel solvers with higher order for black-oil models.&quot; <i>Computational Geosciences</i>. 24, 593–607. DOI: 10.1007/s10596-019-09844-5.'
 ---
 

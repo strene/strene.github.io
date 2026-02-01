@@ -7,6 +7,7 @@ excerpt: 'This paper addresses the modelling and optimization challenges for sha
 date: 2023-01-01
 venue: 'Geoenergy'
 paperurl: ''
+bibtexurl: '/files/bibtex/2023-modelling-optimization-utes.bib'
 citation: 'Ø. Klemetsdal, O. Andersen, S. Krogstad, H. M. Nilsen, E. Bastesen. (2023). &quot;Modelling and optimization of shallow underground thermal energy storage.&quot; <i>Geoenergy</i>. 1(1). DOI: 10.1144/geoenergy2023-005.'
 ---
 
