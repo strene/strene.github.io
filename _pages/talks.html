@@ -11,6 +11,43 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+<!-- New style rendering if talk categories are defined -->
+{% if site.talk_category %}
+  {% for category in site.talk_category  %}
+    {% assign title_shown = false %}
+    
+    <!-- First pass: count talks in this category -->
+    {% assign category_total = 0 %}
+    {% for post in site.talks %}
+      {% if post.category == category[0] %}
+        {% assign category_total = category_total | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Second pass: display talks with reverse numbering -->
+    {% assign talk_counter = 0 %}
+    {% for post in site.talks reversed %}
+      {% if post.category != category[0] %}
+        {% continue %}
+      {% endif %}
+      {% unless title_shown %}
+        <h2>{{ category[1].title }}</h2><hr />
+        {% assign title_shown = true %}
+      {% endunless %}
+      {% assign talk_counter = talk_counter | plus: 1 %}
+      {% assign talk_number = category_total | minus: talk_counter | plus: 1 %}
+      {% include archive-single-talk.html talk_number=talk_number %}
+    {% endfor %}
+  {% endfor %}
+{% else %}
+  <!-- First pass: count total talks -->
+  {% assign total_talks = site.talks | size %}
+  
+  <!-- Second pass: display with reverse numbering -->
+  {% assign talk_counter = 0 %}
+  {% for post in site.talks reversed %}
+    {% assign talk_counter = talk_counter | plus: 1 %}
+    {% assign talk_number = total_talks | minus: talk_counter | plus: 1 %}
+    {% include archive-single-talk.html talk_number=talk_number %}
+  {% endfor %}
+{% endif %}
