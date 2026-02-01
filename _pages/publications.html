@@ -15,6 +15,17 @@ author_profile: true
 {% if site.publication_category %}
   {% for category in site.publication_category  %}
     {% assign title_shown = false %}
+    
+    <!-- First pass: count publications in this category -->
+    {% assign category_total = 0 %}
+    {% for post in site.publications %}
+      {% if post.category == category[0] %}
+        {% assign category_total = category_total | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Second pass: display publications with reverse numbering -->
+    {% assign pub_counter = 0 %}
     {% for post in site.publications reversed %}
       {% if post.category != category[0] %}
         {% continue %}
@@ -23,12 +34,21 @@ author_profile: true
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      {% assign pub_counter = pub_counter | plus: 1 %}
+      {% assign pub_number = category_total | minus: pub_counter | plus: 1 %}
+      {% include archive-single.html pub_number=pub_number %}
     {% endfor %}
   {% endfor %}
 {% else %}
+  <!-- First pass: count total publications -->
+  {% assign total_pubs = site.publications | size %}
+  
+  <!-- Second pass: display with reverse numbering -->
+  {% assign pub_counter = 0 %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    {% assign pub_counter = pub_counter | plus: 1 %}
+    {% assign pub_number = total_pubs | minus: pub_counter | plus: 1 %}
+    {% include archive-single.html pub_number=pub_number %}
   {% endfor %}
 {% endif %}
 
