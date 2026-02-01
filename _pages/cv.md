@@ -7,39 +7,53 @@ redirect_from:
   - /resume
 ---
 
+---
+layout: archive
+title: "CV"
+permalink: /cv/
+author_profile: true
+redirect_from:
+  - /resume
+---
+
 {% include base_path %}
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied Mathematics, Norwegian University of Science and Technology (NTNU), 2018
+  * Visiting student researcher at Stanford University, Energy Science & Engineering
+* M.S. in Industrial Mathematics, Norwegian University of Science and Technology (NTNU), 2014
+  * Exchange student at KTH Royal Institute of Technology
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2018-Present: Research Scientist
+  * SINTEF Digital, Applied Computational Sciences Group
+  * Duties include: Development of numerical simulation technology, linear and nonlinear solution strategies, discretizations, and grid generation
+  * Focus: Geoenergy systems and porous media flow simulation
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2022 (Fall term): Associate Professor (førsteamanuensis) - Part-time
+  * Oslo Metropolitan University, Mathematical Modelling Group
+  * Duties included: Teaching algorithms and data structures
   
-Skills
+Software Development
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Lead developer of [Fimbul](https://sintefmath.github.io/Fimbul.jl/dev/): Julia-based toolbox for geothermal simulation
+* Core developer of [JutulDarcy](https://sintefmath.github.io/JutulDarcy.jl/stable/): Fully differentiable, high-performance porous-media flow simulator
+* Core developer of [MATLAB Reservoir Simulation Toolbox (MRST)](https://www.sintef.no/projectweb/mrst/): Open-source toolbox for porous media flow simulation
+
+Organization and Service
+======
+* Nordic representative, Young Investigators Committee, European Community on Computational Methods in Applied Sciences (ECCOMAS YIC)
+* Organizing committee member, [Geilo Winter Schools in eSciences](http://geilowinterschool.no/)
+
+Research Interests
+======
+* Numerical simulation of geoenergy systems
+* Efficient linear and nonlinear solution strategies
+* Discretizations and grid generation for porous media
+* High-performance scientific computing
+* Open and reproducible science
 
 Publications
 ======
