@@ -22,3 +22,5 @@ Organization
 I currently serve as the Nordic representative of the Young investigators Committee of the European Community on Computational Methods in Applied Sciences ([ECCOMAS YIC](https://www.eccomas.org/comittees/eyic/)), where I am member of the core group.
 
 I am also part of the organizing committee of the [Geilo Winter Schools in Computational Sciences](https://sintefmath.github.io/geilo-winter-school/), an annual meeting place for PhD students, Postdocs, and young researchers. Hosted at the historical Dr. Holms Hotel, the school gathers leading experts to lecture on emerging topics in eSciences.
+
+![Okstindan]({{ site.baseurl }}/images/okstindan.jpg)
