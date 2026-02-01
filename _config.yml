@@ -99,6 +99,13 @@ talk_category:
   other:
     title: 'Other'
 
+# Teaching Category - The following the list of teaching categories and their headings
+teaching_category:
+  courses:
+    title: 'Courses'
+  supervision:
+    title: 'Student Supervision'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)

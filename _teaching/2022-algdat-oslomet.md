@@ -1,6 +1,7 @@
 ---
 title: "Algorithms and Data Structures"
 collection: teaching
+category: courses
 type: "Undergraduate course"
 permalink: /teaching/2022-algdat-oslomet
 venue: "Oslo Metropolitan University, Dept. of Computer Science"
