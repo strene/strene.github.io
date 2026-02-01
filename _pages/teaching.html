@@ -8,59 +8,64 @@ author_profile: true
 One of the most rewarding parts of my job is supervision of students. Feel free
 to reach out if you find anything interesting and are interested in supervision.
 
-I am also part of the organizing committee of the <a
-href="https://sintefmath.github.io/geilo-winter-school/">Geilo Winter Schools in
-Computational Sciences</a>, an annual meeting place for PhD students, Postdocs,
-and young researchers. Hosted at the historical Dr. Holms Hotel, the school
-gathers leading experts to lecture on emerging topics in eSciences. In addition
-to scientific input, each day offers a break with ample time for networking
-while skiing in the mountains of Geilo.
-
-During the fall term of 2022, I held a part-time position as associate professor
-(NO: førsteamanuensis) in the <a
-href="https://www.oslomet.no/en/research/research-groups/mathematical-modelling">mathematical
-modelling group</a> at Oslo Metropolitan University, teaching algorithms and
-data structures.
-
 {% include base_path %}
 
-<!-- New style rendering if teaching categories are defined -->
-{% if site.teaching_category %}
-  {% for category in site.teaching_category  %}
-    {% assign title_shown = false %}
-    
-    <!-- First pass: count teaching entries in this category -->
-    {% assign category_total = 0 %}
-    {% for post in site.teaching %}
-      {% if post.category == category[0] %}
-        {% assign category_total = category_total | plus: 1 %}
-      {% endif %}
-    {% endfor %}
-    
-    <!-- Second pass: display teaching with reverse numbering -->
-    {% assign teaching_counter = 0 %}
-    {% for post in site.teaching reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% assign teaching_counter = teaching_counter | plus: 1 %}
-      {% assign teaching_number = category_total | minus: teaching_counter | plus: 1 %}
-      {% include archive-single.html teaching_number=teaching_number %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  <!-- First pass: count total teaching entries -->
-  {% assign total_teaching = site.teaching | size %}
-  
-  <!-- Second pass: display with reverse numbering -->
-  {% assign teaching_counter = 0 %}
+<!-- Courses Section -->
+{% assign courses_total = 0 %}
+{% for post in site.teaching %}
+  {% if post.category == 'courses' %}
+    {% assign courses_total = courses_total | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if courses_total > 0 %}
+  <h2>Courses</h2><hr />
+  {% assign course_counter = 0 %}
   {% for post in site.teaching reversed %}
-    {% assign teaching_counter = teaching_counter | plus: 1 %}
-    {% assign teaching_number = total_teaching | minus: teaching_counter | plus: 1 %}
-    {% include archive-single.html teaching_number=teaching_number %}
+    {% if post.category == 'courses' %}
+      {% assign course_counter = course_counter | plus: 1 %}
+      {% assign course_number = courses_total | minus: course_counter | plus: 1 %}
+      {% include archive-single.html teaching_number=course_number %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- Student Supervision Section -->
+{% assign supervision_total = 0 %}
+{% for post in site.teaching %}
+  {% if post.category == 'supervision' %}
+    {% assign supervision_total = supervision_total | plus: 1 %}
+  {% endif %}
+{% endfor %}
+
+{% if supervision_total > 0 %}
+  <h2>Student Supervision</h2><hr />
+  {% assign supervision_counter = 0 %}
+  {% for post in site.teaching reversed %}
+    {% if post.category == 'supervision' %}
+      {% assign supervision_counter = supervision_counter | plus: 1 %}
+      {% assign supervision_number = supervision_total | minus: supervision_counter | plus: 1 %}
+      {% include archive-single.html teaching_number=supervision_number %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+<!-- Fallback for uncategorized items -->
+{% assign uncategorized_total = 0 %}
+{% for post in site.teaching %}
+  {% unless post.category %}
+    {% assign uncategorized_total = uncategorized_total | plus: 1 %}
+  {% endunless %}
+{% endfor %}
+
+{% if uncategorized_total > 0 %}
+  <h2>Other Teaching Activities</h2><hr />
+  {% assign uncategorized_counter = 0 %}
+  {% for post in site.teaching reversed %}
+    {% unless post.category %}
+      {% assign uncategorized_counter = uncategorized_counter | plus: 1 %}
+      {% assign uncategorized_number = uncategorized_total | minus: uncategorized_counter | plus: 1 %}
+      {% include archive-single.html teaching_number=uncategorized_number %}
+    {% endunless %}
   {% endfor %}
 {% endif %}

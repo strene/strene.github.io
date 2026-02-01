@@ -102,7 +102,7 @@ talk_category:
 # Teaching Category - The following the list of teaching categories and their headings
 teaching_category:
   courses:
-    title: 'Courses'
+    title: 'Teaching'
   supervision:
     title: 'Student Supervision'
 
