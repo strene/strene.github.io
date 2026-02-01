@@ -1,6 +1,7 @@
 ---
 title: "Efficient Nonlinear Solution Strategies for Geothermal Energy Simulation"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2023-06-19-nonlinear-solution-gs23
 venue: "SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS23)"

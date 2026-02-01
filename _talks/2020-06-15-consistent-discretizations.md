@@ -1,6 +1,7 @@
 ---
 title: "A Comparison of Consistent Discretizations for Elliptic Problems on Polyhedral Grids"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2020-06-15-consistent-discretizations
 venue: "Finite Volumes for Complex Applications IX – Methods, Theoretical Aspects, Examples (FVCA IX)"

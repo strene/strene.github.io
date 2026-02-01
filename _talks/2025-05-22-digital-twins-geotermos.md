@@ -1,6 +1,7 @@
 ---
 title: "Prediktive digitale tvillinger for optimal drift av GeoTermos"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2025-05-22-digital-twins-geotermos
 venue: "GeoTermos-festivalen 2025"

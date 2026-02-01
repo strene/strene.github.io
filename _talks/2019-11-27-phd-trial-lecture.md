@@ -1,6 +1,7 @@
 ---
 title: "Multilevel Monte Carlo Methods for Uncertainty Quantification in Reservoir Simulation"
 collection: talks
+category: other
 type: "PhD Defense Trial Lecture"
 permalink: /talks/2019-11-27-phd-trial-lecture
 venue: "PhD Defense Trial Lecture"

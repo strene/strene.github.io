@@ -1,6 +1,7 @@
 ---
 title: "Unstructured gridding and consistent discretizations for reservoirs with faults and complex wells"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2017-02-20-unstructured-gridding
 venue: "SPE Reservoir Simulation Conference (SPE RSC 2017)"

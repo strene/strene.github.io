@@ -1,6 +1,7 @@
 ---
 title: "Tutorial: Reservoir modelling and simulation with MRST"
 collection: talks
+category: tutorials
 type: "Tutorial"
 permalink: /talks/2021-04-06-mrst-tutorial-transform
 venue: "Transform 2021"

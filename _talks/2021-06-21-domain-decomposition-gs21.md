@@ -1,6 +1,7 @@
 ---
 title: "Nonlinear Domain Decomposition Preconditioning for Field-Scale Subsurface Flow Simulation"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2021-06-21-domain-decomposition-gs21
 venue: "SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS21)"

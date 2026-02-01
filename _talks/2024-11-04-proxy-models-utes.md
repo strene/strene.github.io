@@ -1,6 +1,7 @@
 ---
 title: "Proxy models for rapid simulation of underground thermal energy storage"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2024-11-04-proxy-models-utes
 venue: "Fifth EAGE Global Energy Transition Conference & Exhibition (GET 2024)"

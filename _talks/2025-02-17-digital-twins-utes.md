@@ -1,6 +1,7 @@
 ---
 title: "Predictive digital twins for underground thermal energy storage using differentiable programming"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2025-02-17-digital-twins-utes
 venue: "3rd IACM Digital Twins in Engineering Conference (DTE 2025) & 1st ECCOMAS Artificial Intelligence and Computational Methods in Applied Science (AICOMAS 2025)"

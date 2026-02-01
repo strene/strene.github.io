@@ -1,6 +1,7 @@
 ---
 title: "Dynamic Coarsening for Geothermal Applications"
 collection: talks
+category: conferences
 type: "Minisymposium Keynote"
 permalink: /talks/2022-06-05-dynamic-coarsening-keynote
 venue: "8th European Congress on Computational Methods in Applied Sciences and Engineering (ECCOMAS 2022)"

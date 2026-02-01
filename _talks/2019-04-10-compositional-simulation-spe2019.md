@@ -1,6 +1,7 @@
 ---
 title: "Implicit high-resolution compositional simulation with optimal ordering of unknowns and adaptive spatial refinement"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2019-04-10-compositional-simulation-spe2019
 venue: "SPE Reservoir Simulation Conference (SPE RSC 2019)"

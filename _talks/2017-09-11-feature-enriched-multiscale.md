@@ -1,6 +1,7 @@
 ---
 title: "A feature-enriched multiscale solver for complex geomodels"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2017-09-11-feature-enriched-multiscale
 venue: "SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS17)"

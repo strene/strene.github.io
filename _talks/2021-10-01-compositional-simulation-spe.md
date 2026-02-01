@@ -1,6 +1,7 @@
 ---
 title: "High-resolution compositional reservoir simulation with dynamic coarsening and local timestepping for unstructured grids"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2021-10-01-compositional-simulation-spe
 venue: "SPE Reservoir Simulation Conference (SPE RSC 2021)"

@@ -1,6 +1,7 @@
 ---
 title: "Comparison of implicit discontinuous Galerkin and Weno schemes on stratigraphic and unstructured grids"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2019-03-11-galerkin-weno-comparison
 venue: "SIAM Conference on Mathematical & Computational Issues in the Geosciences (GS19)"

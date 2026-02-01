@@ -1,6 +1,7 @@
 ---
 title: "Modeling and Optimization of Shallow Geothermal Heat Storage"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2022-09-05-shallow-geothermal-ecmor
 venue: "European Conference on the Mathematics of Geological Reservoirs (ECMOR 2022)"

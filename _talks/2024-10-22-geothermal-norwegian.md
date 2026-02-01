@@ -1,6 +1,7 @@
 ---
 title: "Lavtemperatur geotermisk energi – Undergrunnen som varmekilde og varmelager"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2024-10-22-geothermal-norwegian
 venue: "Seniorteknologenes høstkonferanse: Energi (Tekna)"

@@ -1,6 +1,7 @@
 ---
 title: "Ensemble Simulations With MRST With Examples from CO2 Foam Simulation"
 collection: talks
+category: tutorials
 type: "Webinar"
 permalink: /talks/2021-10-06-ensemble-simulations-co2
 venue: "NCCS Webinar Series"

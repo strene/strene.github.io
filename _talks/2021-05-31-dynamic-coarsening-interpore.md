@@ -1,6 +1,7 @@
 ---
 title: "Dynamic coarsening for efficient simulation of geothermal energy applications"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2021-05-31-dynamic-coarsening-interpore
 venue: "13th InterPore Annual Meeting (InterPore 2021)"

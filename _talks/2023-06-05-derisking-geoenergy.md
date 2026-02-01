@@ -1,6 +1,7 @@
 ---
 title: "Derisking geothermal energy by digitalization: a framework for modelling and optimization of underground thermal energy storage systems"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2023-06-05-derisking-geoenergy
 venue: "GeoEnergy 2023"

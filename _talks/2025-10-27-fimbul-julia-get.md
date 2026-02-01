@@ -1,6 +1,7 @@
 ---
 title: "Fimbul.jl – fast, flexible, robust, and differentiable geothermal energy simulation in Julia"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2025-10-27-fimbul-julia-get
 venue: "Sixth EAGE Global Energy Transition Conference & Exhibition (GET 2025)"

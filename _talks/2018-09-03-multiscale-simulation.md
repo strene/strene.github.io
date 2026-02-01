@@ -1,6 +1,7 @@
 ---
 title: "Use of dynamically adapted basis functions to accelerate multiscale simulation of complex geomodels"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2018-09-03-multiscale-simulation
 venue: "16th European Conference on the Mathematics of Oil Recovery (ECMOR XVI)"

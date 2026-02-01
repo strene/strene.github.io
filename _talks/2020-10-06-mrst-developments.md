@@ -1,6 +1,7 @@
 ---
 title: "How to use recent developments of the MATLAB Reservoir Simulation Toolbox for fast prototyping of complex fluid models"
 collection: talks
+category: tutorials
 type: "Webinar"
 permalink: /talks/2020-10-06-mrst-developments
 venue: "NCCS Webinar Series"

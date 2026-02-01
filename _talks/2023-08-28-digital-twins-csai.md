@@ -1,6 +1,7 @@
 ---
 title: "Towards digital twins for managing underground thermal energy storage"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2023-08-28-digital-twins-csai
 venue: "III International Conference on Computational Science and AI in Industry (CSAI 2023)"

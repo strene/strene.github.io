@@ -1,6 +1,7 @@
 ---
 title: "Geothermal Simulation Using MRST"
 collection: talks
+category: conferences
 type: "Conference talk"
 permalink: /talks/2020-08-31-geothermal-mrst
 venue: "12th InterPore Annual Meeting (InterPore 2020)"
