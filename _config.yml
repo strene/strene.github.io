@@ -22,7 +22,7 @@ repository               : "strene/strene.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "profile-bw.jpg"
   name             : "Øystein Klemetsdal"
   pronouns         : # example: "she/her"  
   bio              : "Research scientist at SINTEF Digital. PhD in applied mathematics. Fueling energy transition through numerical simulations."
